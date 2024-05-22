@@ -1,0 +1,53 @@
+.header{
+    position: sticky;
+    top: -80px;
+    left: 0;
+    z-index: 1000;
+    &__ust{
+        background: #fafafa;
+        padding: 20px 0;
+        .icopns{
+            display: flex;
+            gap: 5px;
+            i{
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+                background-color: #000;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+        }
+        .conect{
+            width: 100%;
+            justify-content: end;
+            display: flex;
+            gap: 20px;
+                span{
+                    display: flex;
+                    gap: 5px;   
+                    align-items: center;
+                }
+                i{
+                    color: #ff4709;
+                }
+            }
+    }
+    &__alt{
+        background: #fff;
+        padding: 10px 0;
+        align-items: center;
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            span{
+                font-size:60px;
+                color: #ff4709;
+            }
+        }
+    }
+}

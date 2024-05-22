@@ -1,0 +1,30 @@
+.footer{
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    .icons{
+        display: flex;
+        gap: 10px;
+        i{
+            height: 30px;
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #dedededf;
+
+        }
+    }
+    .btn-1{
+        transition: all 0.2s;
+        color:#fff;
+        background: #000;
+        border: 2px solid #000;
+        border-radius: 0;
+        &:hover{
+            background: transparent;
+            color: #000;
+        }
+    }   
+}

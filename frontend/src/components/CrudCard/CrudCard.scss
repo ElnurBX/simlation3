@@ -1,0 +1,90 @@
+.CrudCard{
+    &__card{
+        &__img{
+            img{
+                transition: all ease 0.4s;
+                position: relative;
+                z-index: 0;
+            }
+            overflow: hidden;
+            position: relative;
+            &:hover{
+                &::before{
+                    top: 10%;
+                    left: 10%;
+                    height: 80%;
+                    width: 80%;
+                    opacity: 1;
+                }
+                img{
+                    transform: scale(1.1);
+                }
+            }
+            &::before{
+                transition: all ease 0.4s;
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                border: 5px solid #ff4709  ;
+                opacity: 0;
+                z-index: 10;
+            }
+            
+        }
+        &__text{
+            .buttons{
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                .btn-1{
+                    transition: all 0.2s;
+                    color:#fff;
+                    background: #000;
+                    border: 2px solid #000;
+                    border-radius: 0;
+                    &:hover{
+                        background: transparent;
+                        color: #000;
+                    }
+                }
+                .btn-2{
+                    transition: all 0.2s;
+                    background: transparent;
+                    color: #000;
+                    border: 2px solid #000;
+                     border-radius: 0;
+                    &:hover{
+                       color:#fff;
+                        background: #000;
+                   
+                   
+                    }
+                }
+            }
+            h5{
+                transition: all ease 0.4s;
+                &:hover{
+                    
+                    color: #ff4709
+                }
+            }
+            .icons{
+                i{
+                    color: #f7c600;
+                }
+                button{
+                    i{
+                        transition: all ease 0.5s;
+                        color: #e0dfdf;
+                        &:hover{
+                            color: rgb(253, 37, 37);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

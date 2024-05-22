@@ -1,0 +1,19 @@
+.Leadership{
+    &__card{
+        .icons{
+            display: flex;  
+            justify-content: center;
+            gap: 10px;
+            i{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width:  30px;
+                height:  30px;
+                background: #bcbaba;
+                color: #fff;
+                border-radius: 50%;
+            }
+        }
+    }
+}

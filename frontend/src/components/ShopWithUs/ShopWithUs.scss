@@ -1,0 +1,22 @@
+.ShopWithUs{
+    background: linear-gradient( 90deg ,#00000060 ,#00000060) ,    url(https://preview.colorlib.com/theme/selling/images/hero_2.jpg.webp);
+    background-position: 50% -7.59375px;
+    padding:300px 0;
+    .buttons{
+        button{
+            font-size: 14px;
+            padding:10px 30px ;
+        }
+        .btn-1{
+            border: 2px solid #fff;
+            color: #fff;
+            border-radius: 0;
+        }
+        .btn-2{
+            color: #000;
+            background: #fff;
+            border-radius: 0;
+            border: 2px solid #fff;
+        }
+    }
+}
